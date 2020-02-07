@@ -1,3 +1,18 @@
 // -----------------------------------------------------------------------------
 // This file contains svg styles.
 // -----------------------------------------------------------------------------
+
+.ssv-svg--logo {
+  @include ssv-size(50px);
+
+  fill: $c-basic;
+  margin-right: 10px;
+}
+
+.ssv-svg--inline {
+  @include ssv-size(24px);
+
+  z-index: 1;
+  fill: rgba($c-basic, 0.4);
+  margin-right: 10px;
+}

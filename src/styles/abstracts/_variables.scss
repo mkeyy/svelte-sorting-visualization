@@ -4,11 +4,23 @@
 
 /** Theme colors */
 $c-black: #000;
+$c-black-two: #171d20;
+$c-dark-steel: #273135;
 $c-white: #fff;
+$c-light-blue: #e9f0f5;
+$c-orange: #fa7252;
+$c-orange-two: #ae5a4a;
+$c-green: #6dcab7;
+$c-green-two: #5c9c90;
 
-$c-primary: $c-white;
-$c-secondary: $c-black;
+$c-primary: $c-orange;
+$c-primary--hover: $c-orange-two;
+$c-secondary: $c-dark-steel;
+$c-tertiary: $c-green;
+$c-tertiary--hover: $c-green-two;
+$c-basic: $c-white;
 $c-font: $c-black;
+$c-dark: $c-black-two;
 
 /**
  * Container's maximum width
@@ -17,8 +29,8 @@ $c-font: $c-black;
 $site-width: 1440px;
 
 /** Theme Fonts */
-$f-basic: 'Lato', sans-serif;
-$f-fancy: 'Russo One', sans-serif;
+$f-basic: 'Roboto', sans-serif;
+$f-fancy: 'Teko', sans-serif;
 
 /**
  * Grid breakpoints

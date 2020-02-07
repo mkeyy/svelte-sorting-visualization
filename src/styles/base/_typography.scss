@@ -9,65 +9,24 @@ body {
   letter-spacing: 0;
 }
 
-h1,
-h2,
-h3,
-.ivn-h1,
-.ivn-h2,
-.ivn-h3 {
+h1, h2, h3, h4,
+.ssv-h1, .ssv-h2, .ssv-h3, .ssv-h4 {
+  display: block;
   font-family: $f-fancy;
+  font-size: 25px;
   font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  line-height: 1.2;
   margin: 0;
-  color: $c-font;
 }
 
-h1,
-.ivn-h1 {
-  font-size: 32px;
-  line-height: 30px;
-
-  @media (min-width: $media-sm) {
-    font-size: 45px;
-    line-height: 45px;
-  }
-
-  @media (min-width: $media-lg) {
-    font-size: 60px;
-    line-height: 60px;
-  }
-}
-
-h2,
-.ivn-h2 {
-  font-size: 24px;
-  line-height: 29px;
-
-  @media (min-width: $media-sm) {
-    font-size: 26px;
-    line-height: 32px;
-  }
-
-  @media (min-width: $media-lg) {
-    font-size: 28px;
-    line-height: 34px;
-  }
-}
-
-h3,
-.ivn-h3 {
+h4, .ssv-h4 {
   font-size: 20px;
-  line-height: 24px;
-
-  @media (min-width: $media-lg) {
-    font-size: 24px;
-    line-height: 26px;
-  }
+  text-transform: uppercase;
 }
 
-p,
-span {
+p, span {
   font-size: 14px;
   font-weight: 400;
   line-height: 22px;
@@ -88,9 +47,8 @@ strong {
   font-weight: 700;
 }
 
-a,
-button {
-  @include ivn-on-event(true) {
+a, button {
+  @include ssv-on-event(true) {
     text-decoration: none;
     box-shadow: none;
     outline: none;

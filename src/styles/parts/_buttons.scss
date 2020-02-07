@@ -1,3 +1,32 @@
 // -----------------------------------------------------------------------------
 // This file contains buttons styles.
 // -----------------------------------------------------------------------------
+
+.ssv-btn {
+  font-family: $f-fancy;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  line-height: 1;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.ssv-btn--primary {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 0.25px;
+  text-transform: uppercase;
+  color: $c-basic;
+  border-radius: 2px;
+  background-color: $c-primary;
+  padding: 15px 30px;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $c-primary--hover;
+  }
+}
